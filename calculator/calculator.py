@@ -47,7 +47,7 @@ def draw(event):
     canvas.create_line((last_x, last_y, x, y), fill='black', width=2)
     last_x, last_y = x, y
 
-def clear_canvas():
+def clear_canvas(): //to clear 
     canvas.delete('all')
 
 root = tk.Tk()
